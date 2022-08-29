@@ -34,7 +34,6 @@ const App = () => {
                     }
                     else if (article)
                     {
-                        // alanBtn().playText(`Opening...`);
                         window.open(article.url, '_blank');
                     }
                 }
@@ -45,7 +44,7 @@ const App = () => {
     return (
         <div>
             <div className={classes.logoContainer}>
-                {/* <img src="./logo256.png" className={classes.alanLogo} alt="logo" /> */}
+                <img src="https://akamaividz2.zee5.com/image/upload/w_1082,h_609,c_scale,f_webp,q_auto:eco/resources/0-10-CHN-000501271-20220530150000/list/51D4969784A9C68FA1118C7DD0C1FFFB1B032BF3G2928e48261af461698fe1034384b0359.jpg" className={classes.alanLogo} alt="logo" />
             </div>
             <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
@@ -53,3 +52,4 @@ const App = () => {
 }
 
 export default App;
+

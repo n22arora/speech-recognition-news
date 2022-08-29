@@ -20,6 +20,7 @@ const styles = makeStyles({
     infoCard: {
         display: 'flex', 
         flexDirection: 'column',
+        margin: '4%',
         textAlign: 'center',
     },
 })
